@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajout Thème</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Ajouter le Thème</h1>
+        <form method="POST" action="ajouter_theme.php">
+            <label for="nom">Nom du thème :</label>
+            <input type="text" id="nom" name="nom" required maxlength="30"><br>
+            
+            <label for="descriptif">Descriptif :</label>
+            <input type="text" id="descriptif" name="descriptif" size="50" required><br>
+            
+            <input type="submit" value="Ajouter">
+        </form>
+    </div>
+</body>
+</html>
+
+

@@ -1,0 +1,26 @@
+
+<head>
+    <meta charset="utf-8"> <!-- Définit l'encodage des caractères en UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Rend la page adaptable aux écrans -->
+    <title>Ajout Élève</title> <!-- Titre de la page -->
+    <link rel="stylesheet" href="styles.css"> <!-- Lien vers le fichier CSS pour le style -->
+</head>
+<body>
+    <div class="form-container"> <!-- Conteneur pour le formulaire -->
+        <h1>Inscription de l'élève</h1> <!-- Titre du formulaire -->
+        <form method="POST" action="ajouter_eleve.php"> <!-- Envoie des données vers "ajouter_eleve.php" -->
+            
+            <label for="prenom">Prénom :</label>
+            <input type="text" id="prenom" name="prenom" required maxlength="30"><br> <!-- Champ texte pour le prénom -->
+            
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required maxlength="30"><br> <!-- Champ texte pour le nom -->
+            
+            <label for="datedenaissance">Date de naissance :</label>
+            <input type="date" id="datedenaissance" name="datedenaissance" required><br> <!-- Sélection de la date -->
+            
+            <input type="submit" value="S'inscrire"> <!-- Bouton pour valider le formulaire -->
+        </form>
+    </div>
+</body>
+</html>
